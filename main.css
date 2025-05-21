@@ -1,0 +1,29 @@
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgb(211, 202, 202);
+  padding: 10px;}
+
+.container div{
+  display: flex;
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 10px;
+  text-align:center;
+  justify-content: center;
+  align-items: center;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border: 1px solid black;
+}
+
+.container p{
+color: #972f2f;
+font-size: 20px;
+
+}
